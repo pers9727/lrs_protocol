@@ -76,8 +76,7 @@ class ExampleApp(QtWidgets.QMainWindow, design.Ui_MainWindow):
                 'sshpass -p raspberry ssh pi@10.42.43.15 python3 /home/pi/projects/SCB/SCB.py --ip 0.0.0.0 --port 8000')
         elif str(prog[:-1]) == 'DPR':
             print(1)
-            os.system(
-                'sshpass -p raspberry ssh pi@10.42.43.15 python3 /home/pi/projects/DPR/pi_face_recognition.py --cascade haarcascade_frontalface_default.xml --encodings /home/pi/projects/DPR/encodings.pickle --ip 0.0.0.0 --port 8000')
+            os.system('sshpass -p raspberry ssh pi@10.42.43.15 python3 /home/pi/projects/DPR/pi_face_recognition.py --cascade haarcascade_frontalface_default.xml --encodings /home/pi/projects/DPR/encodings.pickle --ip 0.0.0.0 --port 8000')
 
     def prog_func(self):
         ssh_directory = '/home/pi/projects/'
