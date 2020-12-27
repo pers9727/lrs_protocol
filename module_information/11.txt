@@ -1,0 +1,7 @@
+VC
+
+1 commands in module
+['SDC\n']
+3 active interfaces
+['lo', 'eth0', 'wlan0']
+['Hardware\t: BCM2835\n', 'Revision\t: a020d3\n', 'Serial\t\t: 000000000427c8ae\n', 'Model\t\t: Raspberry Pi 3 Model B Plus Rev 1.3\n']

@@ -1,0 +1,6 @@
+C
+2 commands in module
+['SBC\n', 'DPR']
+3 active interfaces
+['lo', 'eth0', 'wlan0']
+['Hardware\t: BCM2835\n', 'Revision\t: b03111\n', 'Serial\t\t: 10000000a1b65404\n']

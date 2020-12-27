@@ -1,0 +1,6 @@
+S
+2 commands in module
+['OCN\n', 'PM']
+3 active interfaces
+['lo', 'eth0', 'wlan0']
+['Hardware\t: BCM2711\n', 'Revision\t: b03111\n', 'Serial\t\t: 10000000d903905c\n', 'Model\t\t: Raspberry Pi 4 Model B Rev 1.1\n']
