@@ -34,8 +34,7 @@ def threaded(conn, ip_addr):
 
             # Write ip_type to ip_type_data
             ip_type_data = f'{ip_addr} {new_data[0]}'
-            ip_type_intermediate_file = work_with_files.read(ip_type_file)
-            if ip_type_data not in list(ip_type_intermediate_file):
+            if ip_type_data not in list(work_with_files.read(ip_type_file)):
                 work_with_files.write(ip_type_file, ip_type_data, 'a')
 
             # Write commands to file and check if command in file continue, else write
